@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /*
- * main is the entry point
+ * main - Entry point
  * code is in block enclosed in curly bracket
- * return is 0
+ * return - 0 (success)
  */
 
 int main(void)
