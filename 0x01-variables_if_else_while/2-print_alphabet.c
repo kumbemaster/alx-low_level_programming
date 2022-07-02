@@ -11,8 +11,11 @@ int main(void)
 	char lowercase;
 
 	for (lowercase = 'a'; lowercase <= 'z'; lowercase++)
-		putcher(lowercase);
-		putcher("\n");
+	{
+		putchar(lowercase);
+	}
+		
+	putchar('\n');
 	
 	return (0);
 
