@@ -2,12 +2,14 @@
 
 /**
 * main - causes an infinite loop
-* \\o/\n - this is a null character printed on a new line
 * Return: 0
 */
 
 int main(void)
+
 {
+
+
 
 int i;
 
@@ -15,14 +17,17 @@ printf("Infinite loop incoming :(\n");
 
 i = 0;
 
-/**
+
+/*
 *while (i < 10)
 *{
 *putchar(i);
 *}
 */
+
 printf("Infinite loop avoided! \\o/\n");
 
 return (0);
 
 }
+
