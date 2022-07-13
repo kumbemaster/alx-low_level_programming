@@ -7,20 +7,20 @@
  */
 
 void print_rev(char *s)
-{0
-	char rvs = s[0];
-	int count = 0;
+{
+	char rev = s[0];
+	int ctt = 0;
 	int i;
 
-	while (s[count] != '\0')
-		count++;
+	while (s[ctt] != '\0')
+		ctt++;
 
-	for (i = 0; i < count; i++)
+	for (i = 0; i < ctt; i++)
 	{
-		count--;
-		rvs = s[i];
-		s[i] = s[count]
-		s[count] = rvs;
+		ctt--;
+		rev = s[i];
+		s[i] = s[ctt]
+		s[ctt] = rev;
 	}
 
 }
