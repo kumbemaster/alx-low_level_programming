@@ -19,7 +19,7 @@ void print_rev(char *s)
 	{
 		ctt--;
 		rev = s[i];
-		s[i] = s[ctt]
+		s[i] = s[ctt];
 		s[ctt] = rev;
 	}
 
