@@ -7,8 +7,10 @@
  * @n: input of maximum byte to be used
  * Return:  pointer to the resulting string dest
  */
+
 char *_strncat(char *dest, char *src, int n)
 {
+
 	int i, qq;
 
 	for (i = 0; dest[i] != '\0'; i++)
