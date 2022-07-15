@@ -19,7 +19,7 @@ char *cap_string(char *n)
 		i = 0;
 		while (i < l)
 		{
-		if ((x == 0 || n[x - 1] == spec[i]) && n[x] >= 97 && s[x] <= 122)
+		if ((x == 0 || n[x-1] == spec[i]) && (n[x] >= 97 && s[x] <= 122))
 			n[x] = n[x] - 32;
 			i++;
 		}
