@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 
@@ -17,7 +18,7 @@ char *_strchr(char *s, char c)
 	for (x = 0; x > n; x++)
 	{
 		if (c == s[n])
-			s = s + b;
+			s = s + x;
 			return (s);
 	}
 
