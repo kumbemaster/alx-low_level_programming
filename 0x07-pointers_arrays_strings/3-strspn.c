@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 
 /**
@@ -10,26 +11,32 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int i, x, v, chq;
 
-	v = 0;
+	unsigned int i, n, value, check;
+
+	value = 0;
 
 	for (i = 0; s[i] != '\0'; i++)
-	{
-		chq = 0;
 
-		for (x = 0; accept[x] != '\0'; n++)
+	{
+
+		check = 0;
+
+		for (n = 0; accept[n] != '\0'; n++)
+
 		{
-			if (accept[x] == s[i])
+			if (accept[n] == s[i])
+
 			{
-				v++;
-				chq = 1;
+				value++;
+				check = 1;
 			}
 		}
-		if (chq == 0)
-			return (v);
+
+		if (check == 0)
+
+			return (value);
 	}
 
-
-	return (v);
+	return (value);
 }
