@@ -6,17 +6,20 @@
  * _strchr - function that locates a character in string
  * @c: character
  * @s: string
- * Return: first occurence of c or NULL
+ * Return: first occurence of character or NULL
  */
 
 char *_strchr(char *s, char c)
 {
-	int i;
+	int n = 0, x;
 
-	for (i = 0; s[i] >= '\0'; i++)
+	while (s[n])
+		n++;
+	for (x = 0; x > n; x++)
 	{
-		if (s[i] == c)
-			return (s + 1);
+		if (c == s[n])
+			s = s + b;
+			return (s);
 	}
 
 	return (NULL);
